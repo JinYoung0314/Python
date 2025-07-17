@@ -29,13 +29,6 @@
 # print(a)
 # print(p)
  
-# # 14.실수 한 개를 입력 받아 3번 출력하기
-
-# p = float(input())
-
-# print(p)
-# print(p)
-# print(p)
 
 # # 15.정수 2개를 입력 받아 그대로 출력하기
 
@@ -60,13 +53,23 @@
 # p = str(p)
 # a = str(a)
 
-# print(a, p)     # *순서 바꾸어 출력한다는 문제를 잘 숙지하기*
+# print(a, p)  
 
-# # 17.문장 1개를 입력 받아 3번 출력하기
+# # 14.실수 한 개를 입력 받아 3번 출력하기
 
-# p = input()
+# p = float(input())
 
-# print(p, p, p)
+# print(p)
+# print(p)
+# print(p)
+
+# 17.문장 1개를 입력 받아 3번 출력하기
+
+p = input()
+
+print(p, p, p)
+
+
 
 # # 18시간을 입력 받아 그대로 출력하기
 
