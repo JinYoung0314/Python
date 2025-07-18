@@ -58,7 +58,7 @@
 
 
 
-#34. 정수 2개를 입력 받아 차 계산하기
+# # 34. 정수 2개를 입력 받아 차 계산하기
 
 # w,w1 = (input().split(' '))
 
@@ -67,8 +67,39 @@
 # tw = w - w1
 
 # print(tw)
-#  ------------------------
+# #  ------------------------
 # w, w1 = map(int, input().split())
 # print(w - w1)
  
  
+
+# #35. 실수 2개 입력 받아 곱 계산하기
+
+# s, s1 = map(float, input().split(' '))
+
+# print(s * s1)
+
+
+
+# #36. 단어 여러번 출력하기
+
+# w, n = input().split(' ')
+# print(w * int(n))
+
+
+
+# #37. 문장 여러번 출력하기
+
+# n = input()
+# s = input()
+# print(int(n)*s )
+
+
+
+#38. 정수 2개 입력 받아 거듭제곱 계산하기
+
+s, s1 = map(int, input().split(' '))
+
+ts = s**s1
+
+print(ts)
