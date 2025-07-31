@@ -98,8 +98,22 @@
 
 #38. 정수 2개 입력 받아 거듭제곱 계산하기
 
-s, s1 = map(int, input().split(' '))
+# s, s1 = map(int, input().split(' '))
 
-ts = s**s1
+# ts = s**s1
 
-print(ts)
+# print(ts)
+
+# #39. 실수 2개를 입력 받아 거듭제곱 계산하기
+
+# f1, f2 = map(float, input().split(' '))
+
+# f3 = f1**f2
+# print(f3)
+
+# 40. 정수 2개를 입력 받아 나눈 목 계산하기
+
+a, b = map(int, input().split(' '))
+
+print(a//b)
+
