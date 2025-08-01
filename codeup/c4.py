@@ -113,7 +113,18 @@
 
 # 40. 정수 2개를 입력 받아 나눈 목 계산하기
 
-a, b = map(int, input().split(' '))
+# a, b = map(int, input().split(' '))
 
-print(a//b)
+# print(a//b)
+
+# 41. 정수 2개를 입력 받아 나눈 나머지 계산하기
+
+# a, b = map(int, input().split(' '))
+
+# print(a%b)
+
+# 42. 실수 1개를 입력 받아 소숫점 이하 자리 변환하기 
+
+a = float(input())
+print(format(a, ".2f"))
 
