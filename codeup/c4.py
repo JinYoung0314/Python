@@ -125,6 +125,22 @@
 
 # 42. 실수 1개를 입력 받아 소숫점 이하 자리 변환하기 
 
-a = float(input())
-print(format(a, ".2f"))
+# a = float(input())
+# print(format(a, ".2f"))
+
+# 43. 실수 2개 입력을 받아 나눈 결과 계산하기
+
+# f1, f2 = map(float, input().split(' '))
+# print(format(f1/f2,".3f"))
+
+# 44. 정수 2개 입력 받아 자동 계산하기
+
+a, b = map(int, input().split(' '))
+
+print(a + b)
+print(a - b)
+print(a * b)
+print(a // b)
+print(a % b)
+print(format(a / b,".2f"))
 
