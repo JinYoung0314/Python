@@ -133,14 +133,32 @@
 # f1, f2 = map(float, input().split(' '))
 # print(format(f1/f2,".3f"))
 
-# 44. 정수 2개 입력 받아 자동 계산하기
+# # 44. 정수 2개 입력 받아 자동 계산하기
 
-a, b = map(int, input().split(' '))
+# a, b = map(int, input().split(' '))
 
-print(a + b)
-print(a - b)
-print(a * b)
-print(a // b)
-print(a % b)
-print(format(a / b,".2f"))
+# print(a + b)
+# print(a - b)
+# print(a * b)
+# print(a // b)
+# print(a % b)
+# print(format(a / b,".2f"))
+
+# # 45. 정수 3개 입력 받아 합과 평균 출력하기 
+
+# a, b, c = map(int, input().split(' '))
+
+# d = a + b + c
+# e = format(d/3,".2f")
+# print(d, e)
+
+# 46. 정수 1개 입력 받아 2배 곱해 출력하기
+
+# a = int(input())
+
+# b = a
+# print(b<<1)
+
+
+
 
