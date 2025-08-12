@@ -159,6 +159,26 @@
 # b = a
 # print(b<<1)
 
+# 47. 2의 거듭제곱 배로 곱해 출력하기
 
+# a, b = map(int, input().split(' '))
 
+# print(a<<b)
 
+# 48. 정수 2개 입력 받아 비교하기
+
+# a, b = map(int, input().split(' '))
+
+# print(a<b)
+
+# 49. 정수 2개 입력 받아 비교하기
+
+# a, b = map(int, input().split(' '))
+
+# print(a == b)
+
+# 50. 정수 2개 입력 받아 비교하기
+
+# a, b = map(int, input().split())
+
+# print(a <= b)
